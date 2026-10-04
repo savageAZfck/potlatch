@@ -2,8 +2,15 @@
 name = "potlatch"
 version = "0.1.0"
 edition = "2021"
-description = "Mind economy — signed compute IOUs between sovereign organisms, settled against treaty invocations"
+rust-version = "1.75"
+authors = ["Adam Clark <savagetism@icloud.com>"]
+repository = "https://github.com/savageAZfck/potlatch"
+homepage = "https://github.com/savageAZfck/potlatch"
 license = "MIT"
+description = "Mind economy: signed compute IOUs between sovereign organisms, settled against real invocation records on a hash-chained book — balances derived from history, defaults permanent — named for the gift economy where standing is proven by what you give"
+keywords = ["economy", "compute", "iou", "settlement", "agents"]
+categories = ["cryptography"]
+readme = "README.md"
 
 [dependencies]
 ed25519-dalek = { version = "2", features = ["rand_core"] }
